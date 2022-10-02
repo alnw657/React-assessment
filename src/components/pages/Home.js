@@ -5,17 +5,19 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
-             <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                    <h2>Image if</h2>
-                    <div className='snapchat'>
-                    <h2>SnapChat</h2></div>
-                    <h2>had events</h2>
-                    <p>Easiliy host and share events with your friends across any social media.</p>
+
+                    <div class="title">
+                        <h2>Imagine if</h2>
+                        <div className='snapchat'>
+                            <h2>SnapChat</h2></div>
+                            <h2>had events</h2>
                     </div>
-                    <div class="col-6">
-                    <img src='/images/landingimage.jpeg' />
+                    <p>Easiliy host and share events with your friends across any social media.</p>
+
+                    <div class="col">
+                        <img src='/images/landingimage.jpeg' />
                         <Link to='/event'><button>Create my event</button></Link>
                     </div>
                 </div>

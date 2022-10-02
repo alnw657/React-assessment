@@ -1,30 +1,25 @@
 body{
 
+    position: relative;
+    width: 375px;
+    height: 813px;
+    overflow-y: scroll;
+    
+    background: #F6F2FF;
 
-background: linear-gradient(0deg, #F6F2FF, #F6F2FF), #FBFAFF;
 }
 img{
+    
     position: absolute;
-width: 311px;
-height: 548.27px;
-left: calc(50% - 311px/2 + 0.5px);
-top: 379px;
+    width: 165.63px;
+    height: 292px;
+    left: calc(50% - 165.63px/2 + 0.32px);
+    top: 290px;
+    filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+    border-radius: 13.2326px;
 
 }
 
-h2{
-
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 36px;
-
-text-align: center;
-
-color: #240D57;
-
-}
 
 button{
     display: flex;
@@ -39,7 +34,31 @@ width: 187px;
 height: 50px;
 left: calc(50% - 187px/2);
 top: 616px;
-
 background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
 border-radius: 10px;
+}
+.title h2{
+
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* or 100% */
+    
+    text-align: center;
+    
+    color: #240D57;
+    
+}
+
+.title .snapchat h2{
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+   
 }

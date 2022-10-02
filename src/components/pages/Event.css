@@ -2,8 +2,8 @@ body{
     background: #FBFAFF;
 }
 
-.event-items.img{
-    position: absolute;
+.event-img{
+position: absolute;
 width: 375px;
 height: 375px;
 left: calc(50% - 375px/2);
@@ -11,4 +11,21 @@ top: 0px;
 
 
 border-radius: 0px;
+}
+
+.event-title{
+
+    position: absolute;
+width: 327px;
+height: 37px;
+left: calc(50% - 327px/2 - 4px);
+top: 386px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+
+color: #240D57;
 }
