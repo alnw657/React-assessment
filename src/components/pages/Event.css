@@ -1,0 +1,14 @@
+body{
+    background: #FBFAFF;
+}
+
+.event-items.img{
+    position: absolute;
+width: 375px;
+height: 375px;
+left: calc(50% - 375px/2);
+top: 0px;
+
+
+border-radius: 0px;
+}
