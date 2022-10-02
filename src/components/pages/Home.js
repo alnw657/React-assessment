@@ -12,11 +12,12 @@ function Home() {
                         <h2>Imagine if</h2>
                         <div className='snapchat'>
                             <h2>SnapChat</h2></div>
-                            <h2>had events</h2>
+                            <h2>had events.</h2>
+                            <p>Easiliy host and share events with your friends across any social media.</p>
                     </div>
-                    <p>Easiliy host and share events with your friends across any social media.</p>
+                   
 
-                    <div class="col">
+                    <div class="col image">
                         <img src='/images/landingimage.jpeg' />
                         <Link to='/event'><button>Create my event</button></Link>
                     </div>
